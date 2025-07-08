@@ -137,6 +137,9 @@ class BluetoothMeshManager @Inject constructor(
                             _connectionEvents.emit(ConnectionEvent.Disconnected(it.address))
                         }
                     }
+                    else -> {
+                        Log.d(TAG, "Connection state changed to: $newState for device: ${it.address}")
+                    }
                 }
             }
         }
@@ -150,7 +153,7 @@ class BluetoothMeshManager @Inject constructor(
             offset: Int,
             value: ByteArray?
         ) {
-            super.onCharacteristicWriteRequest(device, characteristic, preparedWrite, responseNeeded, offset, value)
+            super.onCharacteristicWriteRequest(device, requestId, characteristic, preparedWrite, responseNeeded, offset, value)
             
             device?.let { bluetoothDevice ->
                 value?.let { data ->

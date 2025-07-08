@@ -69,8 +69,8 @@ class CryptographyManager @Inject constructor() {
                 message.toByteArray(),
                 message.toByteArray().size.toLong(),
                 nonce,
-                theirPublicKey,
-                mySecretKey
+                theirPublicKey.asBytes,
+                mySecretKey.asBytes
             )
             
             if (success) {
@@ -103,8 +103,8 @@ class CryptographyManager @Inject constructor() {
                 encryptedMessage.ciphertext,
                 encryptedMessage.ciphertext.size.toLong(),
                 encryptedMessage.nonce,
-                senderPublicKey,
-                mySecretKey
+                senderPublicKey.asBytes,
+                mySecretKey.asBytes
             )
             
             if (success) {
@@ -130,7 +130,7 @@ class CryptographyManager @Inject constructor() {
                 signature,
                 message.toByteArray(),
                 message.toByteArray().size.toLong(),
-                secretKey
+                secretKey.asBytes
             )
             
             if (success) signature else null
@@ -150,8 +150,8 @@ class CryptographyManager @Inject constructor() {
             lazySodium.cryptoSignVerifyDetached(
                 signature,
                 message.toByteArray(),
-                message.toByteArray().size.toLong(),
-                publicKey
+                message.toByteArray().size,
+                publicKey.asBytes
             )
         } catch (e: Exception) {
             Log.e(TAG, "Failed to verify signature", e)
@@ -180,7 +180,7 @@ class CryptographyManager @Inject constructor() {
                 message.toByteArray(),
                 message.toByteArray().size.toLong(),
                 nonce,
-                key
+                key.asBytes
             )
             
             if (success) {
@@ -210,7 +210,7 @@ class CryptographyManager @Inject constructor() {
                 encryptedMessage.ciphertext,
                 encryptedMessage.ciphertext.size.toLong(),
                 encryptedMessage.nonce,
-                key
+                key.asBytes
             )
             
             if (success) {

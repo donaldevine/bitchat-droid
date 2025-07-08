@@ -1,4 +1,6 @@
-# BitChat Android
+# BitChat Droid
+
+This is an Android port of https://github.com/jackjackbits/bitchat
 
 A decentralized Bluetooth mesh messaging application that enables secure peer-to-peer communication without internet connectivity.
 
@@ -44,17 +46,7 @@ BitChat implements state-of-the-art cryptographic security:
 
 ### Building the Project
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/bitchat-droid.git
-   cd bitchat-droid
-   ```
-
-2. Open the project in Android Studio
-
-3. Sync the project with Gradle files
-
-4. Build and run on your device:
+Build and run on your device:
    ```bash
    ./gradlew assembleDebug
    ```
