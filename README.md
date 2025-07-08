@@ -46,8 +46,8 @@ BitChat implements state-of-the-art cryptographic security:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/bitchat-android.git
-   cd bitchat-android
+   git clone https://github.com/yourusername/bitchat-droid.git
+   cd bitchat-droid
    ```
 
 2. Open the project in Android Studio
