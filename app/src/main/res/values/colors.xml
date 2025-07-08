@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light theme colors -->
+    <color name="primary_light">#2196F3</color>
+    <color name="on_primary_light">#FFFFFF</color>
+    <color name="secondary_light">#03DAC6</color>
+    <color name="on_secondary_light">#000000</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="on_surface_light">#000000</color>
+    
+    <!-- Dark theme colors -->
+    <color name="primary_dark">#2196F3</color>
+    <color name="on_primary_dark">#FFFFFF</color>
+    <color name="secondary_dark">#03DAC6</color>
+    <color name="on_secondary_dark">#000000</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="on_surface_dark">#FFFFFF</color>
+    
+    <!-- Common colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Status colors -->
+    <color name="online_color">#4CAF50</color>
+    <color name="offline_color">#9E9E9E</color>
+    <color name="connecting_color">#FF9800</color>
+    <color name="error_color">#F44336</color>
+</resources>
