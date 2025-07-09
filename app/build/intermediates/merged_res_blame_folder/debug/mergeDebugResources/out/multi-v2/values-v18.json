@@ -4,7 +4,7 @@
             "outputFile": "com.bitchat.android.app-mergeDebugResources-2:/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ddevine\\.gradle\\caches\\transforms-3\\7ffc6627c6719183a8d5e5503740962f\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
+                    "source": "C:\\Users\\ddevine\\.gradle\\caches\\8.13\\transforms\\be85f0509596893c30328faeebe89cfa\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

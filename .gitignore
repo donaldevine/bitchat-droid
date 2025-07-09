@@ -1,3 +1,67 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.a_
+*.aar
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+build/
+*/build/
+
+# Gradle files
+.gradle/
+*/.gradle/
+gradle-app.setting
+
+# Local configuration properties files
+local.properties
+
+# Log Files
+*.log
+
+# Android Studio Navigation editor files
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+# Android Studio profiler files
+*.hprof
+
+# Keystore files
+*.jks
+*.keystore
+
+# External native build folder created in .gitignore
+.cxx/
+
+# C/C++ SonarCloud output folder
+.scannerwork/
+
+# Crashlytics plugin
+com_crashlytics_export_strings.xml
+
+# Google Services (keep if you have different files for different build types,
+# otherwise it's better to keep it in version control)
+# google-services.json
+
+# IntelliJ
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml # May be kept if you have a multi-module project and want to share module setup
+.idea/runConfigurations/ # May be kept if you want to share run configurations
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+
 "gradle-8.4-bin.zip" 
 "gradle/wrapper/gradle-wrapper.jar" 
 "*.zip" 

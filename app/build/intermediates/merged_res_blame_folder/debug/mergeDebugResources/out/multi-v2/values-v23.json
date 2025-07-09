@@ -4,17 +4,7 @@
             "outputFile": "com.bitchat.android.app-mergeDebugResources-2:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ddevine\\.gradle\\caches\\transforms-3\\82332fc85f0527925abb0e507bf72abf\\transformed\\work-runtime-2.9.0\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,121",
-                        "endColumns": "65,62",
-                        "endOffsets": "116,179"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ddevine\\.gradle\\caches\\transforms-3\\6e43dfcca9345595a45740f4dbcb0c68\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\ddevine\\.gradle\\caches\\8.13\\transforms\\db5ea847666b48df3833e085af6ef771\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,9,13,16,19,22,25,28,32",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -33,7 +23,17 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ddevine\\.gradle\\caches\\transforms-3\\87cd753144c758afea97e3ff1f4abef5\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\ddevine\\.gradle\\caches\\8.13\\transforms\\6c8fac695d43ef2dcc733c60b54dfe0b\\transformed\\work-runtime-2.9.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ddevine\\.gradle\\caches\\8.13\\transforms\\5175ccdfb3d068b9449d146e15a515e8\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -52,7 +52,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ddevine\\.gradle\\caches\\transforms-3\\7ffc6627c6719183a8d5e5503740962f\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\ddevine\\.gradle\\caches\\8.13\\transforms\\be85f0509596893c30328faeebe89cfa\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
